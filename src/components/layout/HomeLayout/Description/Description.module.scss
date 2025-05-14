@@ -1,0 +1,93 @@
+.description {
+    width: 400px;
+    height: 300px;
+    z-index: 20;
+    position: absolute;
+    margin: 200px 0px 0px 150px;
+}
+
+.description-movie {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.movie-logo {
+    width: 160px;
+    height: 80px;
+    margin-bottom: 16px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+.year,
+.age,
+.time,
+.kind {
+    display: inline-block;
+    color: white;
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+.kind {
+    border-right: none;
+}
+.age {
+    background-color: #e74c3c;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.describe {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #eee;
+}
+.buttons {
+    margin-top: 12px;
+    display: flex;
+    gap: 10px;
+}
+
+.watch-button,
+.wishlist-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.watch-button {
+    background-color: orangered;
+    color: white;
+
+    &:hover {
+        background-color: orangered;
+        transform: scale(1.05);
+    }
+}
+
+.wishlist-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid #ccc;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.4);
+        transform: scale(1.05);
+    }
+}
