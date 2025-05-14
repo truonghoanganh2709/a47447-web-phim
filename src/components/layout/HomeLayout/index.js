@@ -36,7 +36,7 @@ function HomeLayout() {
             <Header />
             <Description idMovie={idMovie} onHover={handleHover} onLeave={handleLeave} />
             <ListCard onHover={handleHover} onLeave={handleLeave} />
-            <Footer />
+            <Footer style={{ position: 'absolute', bottom: 0, width: '100%' }} />
         </div>
     );
 }

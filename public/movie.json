@@ -51,7 +51,7 @@
         {
             "id": 5,
             "movie": "Inception",
-            "image": "/images/inception.jpg",
+            "image": "/images/t_140x140.jpg",
             "background": "/images/inception-bg.jpg",
             "logo": "/images/inception-logo.webp",
             "year": 2010,
@@ -87,7 +87,7 @@
         {
             "id": 8,
             "movie": "The Godfather",
-            "image": "/images/godfather.jpg",
+            "image": "/images/godfather.avif",
             "background": "/images/godfather-bg.jpg",
             "logo": "/images/godfather-logo.webp",
             "year": 1972,
@@ -99,7 +99,7 @@
         {
             "id": 9,
             "movie": "Forrest Gump",
-            "image": "/images/forrest-gump.jpg",
+            "image": "/images/forrest-gump.webp",
             "background": "/images/forrest-gump-bg.jpg",
             "logo": "/images/forrest-gump-logo.webp",
             "year": 1994,
@@ -159,7 +159,7 @@
         {
             "id": 14,
             "movie": "Jurassic Park",
-            "image": "/images/jurassic-park.jpg",
+            "image": "/images/jurassic-park.webp",
             "background": "/images/jurassic-park-bg.jpg",
             "logo": "/images/jurassic-park-logo.webp",
             "year": 1993,
@@ -183,7 +183,7 @@
         {
             "id": 16,
             "movie": "The Terminator",
-            "image": "/images/terminator.jpg",
+            "image": "/images/terminator.webp",
             "background": "/images/terminator-bg.jpg",
             "logo": "/images/terminator-logo.webp",
             "year": 1984,
@@ -195,7 +195,7 @@
         {
             "id": 17,
             "movie": "The Matrix Reloaded",
-            "image": "/images/matrix-reloaded.jpg",
+            "image": "/images/matrix-reloaded.webp",
             "background": "/images/matrix-reloaded-bg.jpg",
             "logo": "/images/matrix-reloaded-logo.webp",
             "year": 2003,
@@ -215,30 +215,6 @@
             "time": "1h 48min",
             "genre": "Action/Comedy",
             "description": "Deadpool is a superhero action-comedy about a wisecracking mercenary who gains regenerative healing powers and seeks revenge on those who wronged him."
-        },
-        {
-            "id": 19,
-            "movie": "Mad Max: Fury Road",
-            "image": "/images/mad-max.jpg",
-            "background": "/images/mad-max-bg.jpg",
-            "logo": "/images/mad-max-logo.webp",
-            "year": 2015,
-            "age": "R",
-            "time": "2h",
-            "genre": "Action/Sci-Fi",
-            "description": "Mad Max: Fury Road is an action-packed post-apocalyptic film where Max teams up with Furiosa to escape a tyrannical warlord in a high-speed chase across a desert wasteland."
-        },
-        {
-            "id": 20,
-            "movie": "The Pursuit of Happyness",
-            "image": "/images/pursuit-of-happyness.jpg",
-            "background": "/images/pursuit-of-happyness-bg.jpg",
-            "logo": "/images/pursuit-of-happyness-logo.webp",
-            "year": 2006,
-            "age": "PG-13",
-            "time": "1h 57min",
-            "genre": "Drama",
-            "description": "The Pursuit of Happyness is a biographical drama based on the life of Chris Gardner, who struggles with homelessness while trying to build a career and provide for his son."
         }
     ]
 }

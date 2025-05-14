@@ -3,9 +3,9 @@ import styles from './Footer.module.scss';
 
 const cx = classNames.bind(styles);
 
-function Footer({ styles }) {
+function Footer({ style }) {
     return (
-        <footer className={cx('footer')} style={{ styles }}>
+        <footer className={cx('footer')} style={style}>
             <div className={cx('footer-content')}>
                 <p>© 2025 iMovies. All rights reserved.</p>
                 <div className={cx('links')}>
