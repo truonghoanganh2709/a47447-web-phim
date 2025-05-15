@@ -14,11 +14,11 @@ function ListCard({ onHover, onLeave }) {
         axios
             .get('/data.json')
             .then((res) => setMovies(res.data.movies || []))
-            .catch((err) => console.error('Lỗi khi tải dữ liệu:', err));
+            .catch((err) => console.error('Error page', err));
     }, []);
 
     const handleClick = (movie) => {
-        navigate('/detail', { state: { movie } }); // 👈 Truyền dữ liệu sang trang detail
+        navigate('/detail', { state: { movie } });
     };
 
     return (
@@ -30,7 +30,7 @@ function ListCard({ onHover, onLeave }) {
                         className={cx('card-movie')}
                         onMouseEnter={() => onHover?.(movie)}
                         onMouseLeave={onLeave}
-                        onClick={() => handleClick(movie)} // 👈 Bắt sự kiện click
+                        onClick={() => handleClick(movie)}
                     >
                         <img src={movie.image} alt={movie.movie} className={cx('movie-img')} />
                     </li>
