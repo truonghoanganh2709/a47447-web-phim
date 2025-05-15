@@ -1,0 +1,52 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "movie": "Brave",
+            "image": "/images/brave-apple-poster.jpg",
+            "background": "/images/thumb-1920-938570.jpg",
+            "logo": "/images/Logo_Brave.webp",
+            "year": 2012,
+            "age": "0+",
+            "time": "1h 33min",
+            "genre": "Animation",
+            "description": "Brave is a 2012 animated fantasy-adventure film produced by Pixar Animation Studios and released by Walt Disney Pictures. The movie follows Merida, a skilled archer and the strong-willed daughter of King Fergus and Queen Elinor in the Scottish Highlands."
+        },
+        {
+            "id": 2,
+            "movie": "Interstellar",
+            "image": "/images/interstellar-p5HD.jpg",
+            "logo": "/images/interstella-logo.webp",
+            "background": "/images/insterllar-bg.jpg",
+            "year": 2014,
+            "age": "13+",
+            "time": "2h 49min",
+            "genre": "Sci-Fi",
+            "description": "Interstellar is a science fiction film directed by Christopher Nolan. It follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for humanity as Earth becomes uninhabitable."
+        },
+        {
+            "id": 3,
+            "movie": "Avatar",
+            "image": "/images/shreyas-raut-avatar-2.jpg",
+            "background": "/images/avatar-2-the-way-of-water.avif",
+            "logo": "/images/avatar_logo_no_bg.webp",
+            "year": 2022,
+            "age": "13+",
+            "time": "3h 12min",
+            "genre": "Action/Fantasy",
+            "description": "Avatar: The Way of Water is the sequel to the 2009 film Avatar. It continues the story of Jake Sully and Neytiri as they explore the oceans of Pandora and face new threats to their family and the Na'vi people."
+        },
+        {
+            "id": 4,
+            "movie": "Matrix",
+            "image": "/images/matrix.jpg",
+            "background": "/images/oMCUPlwnk2z3QDnzXBxYY6hJogQ.webp",
+            "logo": "/images/matrix_logo_no_bg.webp",
+            "year": 1999,
+            "age": "16+",
+            "time": "2h 16min",
+            "genre": "Sci-Fi/Action",
+            "description": "The Matrix is a groundbreaking sci-fi film directed by the Wachowskis. It depicts a dystopian future where reality is a simulated world called the Matrix, created by machines to subdue the human population."
+        }
+    ]
+}
