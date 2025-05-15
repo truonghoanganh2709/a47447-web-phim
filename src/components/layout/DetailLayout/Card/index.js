@@ -14,6 +14,7 @@ function Card() {
     return (
         <div className={cx('card-movie-onclick')}>
             <img src={movie.image} alt={movie.movie} />
+            div
         </div>
     );
 }
